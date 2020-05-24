@@ -9,7 +9,9 @@ $(function () {
         method: "GET",
         dataType: "json"
     }).done(function (data) {
+        //Append alle items want bij het laden van de page zijn er geen filters aangeduid
         useFilters(data.items, filters);
+        //Start de flow van de filter
         getFilters(data.items, filters);
     }).fail(function (a, b) {
         console.log(a, b);
@@ -41,7 +43,7 @@ function getFilters(data, filters) {
     })
 }
 
-//Deze functie checked welke filters zijn aangeduid en pushed ze in de filterarray. Indien men de filter nog eens aanclicked
+//Deze functie checked welke filters zijn aangeduid en pushed ze in de filterarray. Indien men de filter nog eens aanklikt
 //zal deze gedeselecteerd worden en verwijdert worden uit de filterarray.
 
 function setFilters(filterSoort, filters) {

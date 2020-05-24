@@ -15,8 +15,8 @@ Indien enkel genrefilters zijn aangeduid filter ik enkel op genre.
 Indien de items overeenkomen met de filters worden ze weergegeven.
 
 Ik zal volgende functies nodig hebben:
--Een functie die de data ophaald
--Een functie die de aangeduide filters ophaald
--Een functie die de deze filters naar een array pushed
--Een functie die de filters vergelijkt met de items
--En tot slotte een functie die de juiste items append aan de html
+- Een functie die de data ophaald
+- Een functie die de aangeduide filters ophaald
+- Een functie die de deze filters naar een array pushed
+- Een functie die de filters vergelijkt met de items
+- En tot slotte een functie die de juiste items append aan de html

@@ -23,6 +23,9 @@ label {
 
 .imgContainer {
     height: 50%;
+    border-bottom-color: #fc2d75;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
 }
 
 img {

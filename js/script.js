@@ -93,6 +93,5 @@ function useFilters(data, filters) {
 }
 
 function appendToHTML(data) {
-    console.log("test");
     $(".content").append(`<div class="card"><div class="imgContainer"><img src="${data.thumbnail.url}" alt="${data.slug}"></div><h2>${data.name}</h2><h3 class="genreTitle">${data["genre-v2"]}</h3><h3 class="leeftijdTitle">${data.age}</h3><p>${data.excerpt}</p><p>${data["recorded-at"]}</p><h4>${data["video-length"]}</h4></div>`)
 }

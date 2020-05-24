@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+.content {
+    width: 80vw;
+    margin: 20px 10vw;
+}
+
+.card {
+    width: 30%;
+    height: 40vh;
+    display: inline-block;
+    margin: 0 1% 20px;
+    background-color: lightgray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.imgContainer {
+    height: 50%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+h2,
+h3,
+h4,
+p {
+    margin: 5px 10px;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 21px;
+}
